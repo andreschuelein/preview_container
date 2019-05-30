@@ -6,13 +6,6 @@ cache_path = '/var/preview-cache'
 source_document = '/var/data/MARBLES.TIF'
 
 manager = PreviewManager('/var/preview-cache/', create_folder=True)
-# start_time = time.time()
-# for x in range(0, 500):
-#     preview_path = manager.get_jpeg_preview(
-#         source_document, height=1000, width=1000, force=True)
-#     if x % 10 == 0:
-#         print("--- %s seconds ---" % (time.time() - start_time))
-#         start_time = time.time()
 
 # preview_path = manager.get_pdf_preview(
 # source_document, force=True)

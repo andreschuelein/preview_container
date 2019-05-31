@@ -1,6 +1,7 @@
 FROM python:3.8-rc-stretch
 
-RUN apt-get update && apt-get install -y \
+RUN apt-get update \
+    &&  apt-get install -y \
     zlib1g-dev \
     libjpeg-dev \
     python3-pythonmagick \

@@ -2,3 +2,5 @@
 **/cache
 **/*.log
 **/notes.md
+**/*.code-workspace
+**/app/__pycache__
